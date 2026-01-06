@@ -93,7 +93,11 @@ three<- bign %>%
 
 # combing all dataset to bring final structure
 final<-bind_rows(two,three) %>% 
+<<<<<<< HEAD
   arrange(AEBODSYS,ORD,AEDECOD,LABEL) 
+=======
+  arrange(AEBODSYS,ORD,AEDECOD,LABEL)
+>>>>>>> 610d3ead7303eda91859e75208b5fe62e6b4d95b
 # mutate(ne_column=ifelse(LABEL=="NA",AEBODSYS,AEDECOD))
 
 final1<-bind_rows(one,final) %>% 
