@@ -13,7 +13,7 @@ stats_table <- advs_filtered %>%
       format(round(mean(AVAL, na.rm = TRUE), 2), nsmall = 2),
       " (",
       format(round(sd(AVAL, na.rm = TRUE), 3), nsmall = 3),
-      ")"
+      ")"  
     ),
     median = format(round(median(AVAL, na.rm = TRUE), 2), nsmall = 2),
     min = format(round(min(AVAL, na.rm = TRUE), 1)),
